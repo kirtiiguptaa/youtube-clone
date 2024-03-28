@@ -742,9 +742,6 @@ a.subscription-name img{
     .side-bar {
         transition: all 0.2s ease;
     }
-    .icon-dropdown .container {
-        height: 85vh;
-    }
     .icon-dropdown {
         min-width: 280px;
         width: 280px;
