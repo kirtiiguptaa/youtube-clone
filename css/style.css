@@ -187,7 +187,7 @@ a {
     overflow-y: hidden;
     scrollbar-width: thin;
     scrollbar-color: #606060 transparent;
-    z-index: -1;
+    z-index: 1000;
 }
 
 .side-bar:hover {
@@ -743,7 +743,13 @@ a.subscription-name img{
         transition: all 0.2s linear;
     }
     .icon-dropdown {
+        min-width: 290px;
+        width: 290px;
         right: 40px;
         transition: all 0.2s linear;
+    }
+    .dropdown-content {
+        min-width: 280px;
+        width: 280px;
     }
 }
