@@ -187,7 +187,7 @@ a {
     overflow-y: hidden;
     scrollbar-width: thin;
     scrollbar-color: #606060 transparent;
-    z-index: 9999;
+    z-index: -1;
 }
 
 .side-bar:hover {
