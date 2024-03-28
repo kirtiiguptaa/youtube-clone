@@ -187,7 +187,7 @@ a {
     overflow-y: hidden;
     scrollbar-width: thin;
     scrollbar-color: #606060 transparent;
-    z-index: 10000;
+    z-index: 99999;
 }
 
 .side-bar:hover {
@@ -740,19 +740,19 @@ a.subscription-name img{
         display: block;
     }
     .side-bar {
-        transition: all 0.2s linear;
+        transition: all 0.2s ease;
     }
     .icon-dropdown .container {
-        height: 74vh;
+        height: 70vh;
     }
     .icon-dropdown {
-        min-width: 290px;
-        width: 290px;
-        right: 40px;
-        transition: all 0.2s linear;
-    }
-    .dropdown-content {
         min-width: 280px;
         width: 280px;
+        right: 40px;
+        transition: all 0.2s ease;
+    }
+    .dropdown-content {
+        min-width: 270px;
+        width: 270px;
     }
 }
