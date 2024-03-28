@@ -743,7 +743,7 @@ a.subscription-name img{
         transition: all 0.2s ease;
     }
     .icon-dropdown .container {
-        height: 70vh;
+        height: 75vh;
     }
     .icon-dropdown {
         min-width: 280px;
