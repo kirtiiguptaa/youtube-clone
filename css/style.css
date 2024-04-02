@@ -187,7 +187,7 @@ a {
     overflow-y: hidden;
     scrollbar-width: thin;
     scrollbar-color: #606060 transparent;
-    z-index: 99999;
+    z-index: 10000;
 }
 
 .side-bar:hover {
@@ -252,7 +252,7 @@ a.subscription-name img{
     width: 50px;
     overflow: hidden;
 }
-.links {
+.small-sidebar .links {
     padding: 10px 5px;
 }
 .small-sidebar a p {
@@ -271,12 +271,10 @@ a.subscription-name img{
 .main-container {
     width: calc(100% - 250px);
     margin-left: 250px;
-    position: relative;
-    z-index: -1;
 }
 
 .large-container {
-    width: calc(100% - 50px);
+    width: 100%;
     margin-left: 50px;
 }
 
@@ -296,6 +294,7 @@ a.subscription-name img{
     display: flex;
     align-items: center;
     overflow-x: auto;
+    z-index: -1;
 }
 
 .filters::-webkit-scrollbar {
@@ -335,6 +334,8 @@ a.subscription-name img{
     display: grid;
     grid-template-columns: repeat(3, 33.3%);
     grid-gap: 20px 20px;
+    position: absolute;
+    z-index: -2;
 }
 
 .video {
@@ -740,19 +741,19 @@ a.subscription-name img{
         display: block;
     }
     .side-bar {
-        transition: all 0.2s ease;
+        transition: all 0.2s linear;
     }
     .icon-dropdown .container {
-        height: 78vh;
+        height: 70vh;
     }
     .icon-dropdown {
-        min-width: 280px;
-        width: 280px;
+        min-width: 290px;
+        width: 290px;
         right: 40px;
-        transition: all 0.2s ease;
+        transition: all 0.2s linear;
     }
     .dropdown-content {
-        min-width: 270px;
-        width: 270px;
+        min-width: 280px;
+        width: 280px;
     }
 }
